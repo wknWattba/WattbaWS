@@ -1,0 +1,167 @@
+*{
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+}
+
+@font-face {
+    font-family: poppinsMed;
+    src: url(font/PoppinsMedium.ttf);
+}
+
+@font-face {
+    font-family: montSbold;
+    src: url(font/MontserratSemiBold.ttf);
+}
+
+body, html {
+    height: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+.heroImg {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("hero1.jpg");
+
+    height: 50%;
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navi {
+    clear: both;
+    overflow: auto;
+    background-color: #fd6958;
+}
+
+nav{
+    float: right;
+}
+
+.logo img {
+    float: left;
+    padding: 10px;
+}
+
+ul li.active {
+    color: white;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: poppinsMed;
+}
+
+ul li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.heroText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.heroText h1 {
+    font-size: 50px;
+    font-family: montSbold;
+}
+
+
+.heroText p {
+    font-family: poppinsMed;
+}
+
+.heroText button {
+    border: none;
+    outline: 0; 
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #fd4b74;
+    cursor: pointer;
+    font-family: poppinsMed;
+    border-radius: 5px;
+}
+
+.heroText button:hover {
+    background-color: white;
+    color: #fd4b74;
+}
+
+.secondTitle {
+    float: right;
+    text-align: center;
+    width: 800px;
+    margin-right: 300px;
+}
+
+.secondTitle h1 {
+    font-family: montSbold;
+    color: #fd4b74;
+}
+
+.secondTitle p {
+    word-wrap: normal;
+    font-family: poppinsMed;
+}
+
+.hero2 {
+    float: left;
+}
+
+.hero2 button {
+    border: none;
+    outline: 0; 
+    padding: 10px 25px;
+    color: white;
+    background-color: #fd4b74;
+    cursor: pointer;
+    font-family: poppinsMed;
+    border-radius: 5px;
+}
+
+.hero2 button:hover {
+    background-color: white;
+    color: #fd4b74;
+}
+
+.hero2 img {
+}
+
+.header1 {
+    margin-top: 75px;
+    margin-right: 150px;
+    float: right;
+}
+
+.header1 img {
+    margin-bottom: 20px;
+}
+
+.header1 li {
+    font-family: poppinsMed;
+}
+
+.header2 {
+    margin-top: 75px;
+    margin-left: 60px;
+    float: left;
+}
+
+.header2 img{
+    margin-bottom: 20px;
+}
+
+.header2 li {
+    font-family: poppinsMed;
+}
+
